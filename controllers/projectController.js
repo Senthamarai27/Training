@@ -6,7 +6,7 @@ const projectModel = require('../models/projectModel');
 //Home page to display all projects
 const homePage = asyncHandler(async(req,res)=>{
     let allProjects = await ProjectModel.find({}).sort('-createdAt');
-    res.render('homepage', {title:"Issue Tracker || Home", allProjects});
+    res.render('homePage', {title:"Issue Tracker || Home", allProjects});
 })
 
 //Create Project page
