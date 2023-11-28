@@ -22,7 +22,7 @@
 }
 .container select option:hover{
     background-color: black;
-    color:#39ff14;
+    color:#08f81825;
 }
 #label{
     padding:.5rem;
@@ -31,18 +31,16 @@
 
 #label .option{
     padding:.5rem;
-    background-color: #39ff14;
+    background-color: white;
     
 }
-/* #label .option:hover{
-    
-} */
+
 .createIssueContainer .projectName{
     font-size:1.3rem;
 }
 .createIssueContainer .projectName .name{
     font-size:1.5rem;
-    color:darkviolet;
+    color:#099ff0;
     font-weight:bold;
 }
 .createIssueAndAuthor{
@@ -54,13 +52,14 @@
     margin-right:2rem;
     
 }
-.tooltipCIProjectDetails{
+/* .tooltipCIProjectDetails{
     width: 120px;
-    /* left: 30px; */
+    // left: 30px; 
     right:-15px;
     top: -50px;
     background: #39ff14;
-}
+} */
+
 .pdCreateIssueLink:hover+.tooltip {
     display: block;
 }
