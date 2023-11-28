@@ -28,7 +28,7 @@
 .projectDetailSection .projectName {
     font-size: 2.2rem;
     font-weight: 500;
-    color: darkviolet;
+    color: brown;
     font-weight: bold;
 }
 
@@ -45,12 +45,12 @@
 }
 
 .projectDetailSection .projectAuthor .name {
-    color: darkviolet;
+    color: brown;
     font-size: 1.5rem;
     font-weight: bold;
 }
 .projectDetailSection .pdCreateIssueLink{
-    background-color: #39ff14;
+    background-color: #36e1ed;
     text-decoration:none;
     font-size:1.5rem;
     padding:.5rem 7rem;
@@ -108,7 +108,7 @@ input[type="checkbox"] {
     padding:.4rem 1rem;
     font-size:1.3rem;
     margin-left:1rem;
-    background-color: #39ff14;
+    background-color: #36e1ed;
     cursor: pointer;
     transition: all .2s ease-in-out;
 }
@@ -131,7 +131,7 @@ input[type="checkbox"]::before {
     transform: scale(0);
     transition: 120ms transform ease-in-out;
     border-radius:3px;
-    box-shadow: inset 1em 1em #39ff14;
+    box-shadow: inset 1em 1em #36e1ed;
 }
 
 input[type="checkbox"]:checked::before {
@@ -147,7 +147,7 @@ input[type="checkbox"]:checked::before {
     width:10px;
 }
 .bugSection::-webkit-scrollbar-thumb{
-    background-color: #39ff14;
+    background-color: #36e1ed;
 }
 .bug{
     border:2px solid black;
@@ -157,7 +157,7 @@ input[type="checkbox"]:checked::before {
 .bugSection .title{
     font-size:1.2rem;
     font-weight:bold;
-    color:blueviolet;
+    color:brown;
 }
 .bugSection .title .name{
     font-size:1.4rem;
