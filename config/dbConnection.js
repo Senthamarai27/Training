@@ -1,16 +1,14 @@
+const mongoose = require('mongoose');
 
-const mongoose = require("mongoose")
-
-// Making Connecting with mongoDB
-const connectDb = async ()=>{
+//Creating database connection with mongoDB
+const connectDB = async()=>{
     try{
-        const connect = await mongoose.connect("mongodb+srv://admin:admin@shubhamcluster.ieolx9t.mongodb.net/IssueTracker?retryWrites=true&w=majority")
-        console.log("Database Connected: ", connect.connection.name)
+        const connect = await mongoose.connect('mongodb+srv://Senthamarai:Sentha27@cluster0.x67z9wq.mongodb.net/issueTracker?retryWrites=true&w=majority');
+        console.log("Database Connected!!");
+    }catch(err){
+        console.log(err);
+        process.exit(1);
     }
-    catch(err){
-        console.log(err)
-        process.exit(1)
-    }
-}
-// Exporting the function 
-module.exports = connectDb;
+} 
+
+module.exports = connectDB;
