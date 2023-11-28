@@ -1,9 +1,7 @@
-const mongoose = require("mongoose")
+const mongoose = require('mongoose');
 
-
-// Creating Schema for Issues
+//Creating schema for issue
 const issueSchema = new mongoose.Schema({
-
     title:{
         type:String,
         trim:true,
@@ -20,7 +18,7 @@ const issueSchema = new mongoose.Schema({
         required:true,
     },
     issueAuthor:{
-        type:String, 
+        type:String,
         trim:true,
         required:true,
     }
@@ -28,5 +26,4 @@ const issueSchema = new mongoose.Schema({
     timestamps:true,
 })
 
-// Exporting model
-module.exports = mongoose.model('Issue',issueSchema)
+module.exports = mongoose.model('Issue', issueSchema);
